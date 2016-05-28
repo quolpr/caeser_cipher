@@ -1,0 +1,8 @@
+<form class='new-user'>
+  <div class='clearfix'>
+    <input type="text" name="name" class='name custom-input'>
+    <button class='proccess'>-></button>
+  </div>
+  <div class='error'>
+  </div>
+</form>

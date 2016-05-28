@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height:100%;
+  background-color: #0079BF;
+}
+.application {
+  margin: auto;
+  background-color: #E2E4E6;
+  padding: 30px;
+  border-radius: 3px;
+  max-width: 600px;
+}
+.custom-input {
+  border: none;
+  border-radius: 3px;
+  border-bottom-color: rgb(204, 204, 204);
+  background-color: #fff;
+  border-bottom-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.error {
+  color: #ff0000;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+.custom-input:focus
+{
+	outline:0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,29 @@
+Rails:
+  Enabled: true
+AllCops:
+  Include:
+    - Rakefile
+    - config.ru
+  Exclude:
+    - db/schema.rb
+    - db/migrate/*
+    - db/seeds.rb
+    - Gemfile
+    - Guardfile
+Rails/HasAndBelongsToMany:
+  Enabled: false
+StringLiterals:
+  Enabled: false
+Metrics/LineLength:
+  Exclude:
+    - 'config/**/*'
+    - 'bin/**/*'
+
+# Offense count: 1
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+
+Style/ClassAndModuleChildren:
+  Enabled: false

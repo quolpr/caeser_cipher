@@ -1,0 +1,12 @@
+<div id="loadingbar-frame"></div>
+<div class='container'>
+  <div id='application' class='application'>
+  </div>
+</div>
+<script type="text/javascript">
+  $(function() {
+    new CaeserCipher.Routers.UsersRouter();
+    new CaeserCipher.Routers.CiphersRouter();
+    Backbone.history.start();
+  });
+</script>

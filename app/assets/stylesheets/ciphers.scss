@@ -1,0 +1,31 @@
+// Place all the styles related to the ciphers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.edit-cipher {
+  .message {
+    display: block;
+    margin-bottom: 5px;
+    resize: none;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .shift {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .error {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  hr {
+    border:none;
+    border-top: 1px dotted #8c8b8b;
+  }
+  .encoded_message {
+    width: inherit;
+    margin-top: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+}

@@ -1,0 +1,9 @@
+<form class="edit-cipher">
+  <textarea rows="10" cols="45" name="message" placeholder="Type a message" class='message custom-input'></textarea>
+  <input type="text" name="shift" class="shift custom-input" placeholder="Shifts">
+  <span class='error'>
+  </span>
+  <hr/>
+  <div name='encoded_message' class='encoded_message'>
+  </div>
+</form>
