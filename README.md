@@ -1,16 +1,18 @@
-== Installing
+# Caeser Cipher
+
+## Installing
 
 ```bash
 bundle install
 ```
 
-== Testing
+## Testing
 
 ```bash
 bin/rspec
 ```
 
-== Server
+## Server
 
 ```
 bin/rails s
