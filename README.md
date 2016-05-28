@@ -1,4 +1,4 @@
-# Caeser Cipher
+# Caeser Cipher [![CircleCI](https://circleci.com/gh/quolpr/caeser_cipher.svg?style=svg)](https://circleci.com/gh/quolpr/caeser_cipher)
 
 ## Installing
 
