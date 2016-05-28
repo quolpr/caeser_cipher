@@ -72,6 +72,7 @@ group :test do
   # All for testing
   gem 'database_cleaner'
   gem 'simplecov', require: false
+  gem 'codecov', :require => false
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'selenium-webdriver'
